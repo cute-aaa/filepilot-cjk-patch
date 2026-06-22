@@ -1,0 +1,25 @@
+# Binaries (original and patched exe should not be committed)
+*.exe
+*.dll
+*.pdb
+
+# Ghidra project (too large)
+ghidra_project/
+
+# Font files (copyright)
+*.ttf
+*.otf
+
+# Screenshots
+*.png
+*.jpg
+
+# Python
+__pycache__/
+*.pyc
+
+# Temp files
+.token
+_push.py
+test_github.py
+.hermes-tmp*/
